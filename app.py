@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Cortisoul Chat Service
 Chatbot yang terhubung ke:
