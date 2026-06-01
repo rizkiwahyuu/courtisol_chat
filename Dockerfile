@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 FROM python:3.11-slim
 
 WORKDIR /app
@@ -11,7 +11,7 @@ COPY . .
 
 EXPOSE 8002
 
-=======
+
 FROM python:3.11-slim
 
 WORKDIR /app
@@ -24,5 +24,5 @@ COPY . .
 
 EXPOSE 8002
 
->>>>>>> 010d7a1084106ed9de72f2dca908878d9d455154
+010d7a1084106ed9de72f2dca908878d9d455154
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8002"]
