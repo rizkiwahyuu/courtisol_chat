@@ -381,7 +381,7 @@ def build_prompt(
 
         context += f"""
 
-=== RIWAYAT {i} ===
+=== RIWAYAT {i}
 
 JURNAL:
 {item['text']}
@@ -489,5 +489,5 @@ async def chat(body: ChatRequest):
 
     return {
         "reply": response.text
->>>>>>> 010d7a1084106ed9de72f2dca908878d9d455154
+         010d7a1084106ed9de72f2dca908878d9d455154
     }
