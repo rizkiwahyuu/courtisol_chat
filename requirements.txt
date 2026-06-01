@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 fastapi
 uvicorn[standard]
 google-generativeai
 python-dotenv
+=======
+fastapi
+uvicorn[standard]
+google-generativeai
+python-dotenv
+>>>>>>> 010d7a1084106ed9de72f2dca908878d9d455154
 pydantic
