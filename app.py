@@ -67,7 +67,7 @@ FAKE_DB = {
 async def lifespan(app: FastAPI):
     global _gemini_client
 
-    genai.configure(api_key='AQ.Ab8RN6J36Mguzajb0ZYza05ZirT4VXAicj5F_pvG2Hz-ZaOxYw')
+    genai.configure(api_key="GEMINI_API_KEY")
 
     _gemini_client = genai.GenerativeModel(
         model_name=GEMINI_MODEL,
